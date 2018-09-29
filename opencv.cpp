@@ -75,8 +75,8 @@ void drawObject(int x, int y,Mat &frame){
 	//use some of the openCV drawing functions to draw crosshairs
 	//on your tracked image!
 
-    //UPDATE:JUNE 18TH, 2013
-    //added 'if' and 'else' statements to prevent
+   
+    //'if' and 'else' statements to prevent
     //memory errors from writing off the screen (ie. (-25,-25) is not within the window!)
 
 	circle(frame,Point(x,y),20,Scalar(0,255,0),2);
